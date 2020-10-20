@@ -190,7 +190,7 @@ class _AutoRotateViewState<E> extends State<AutoRotateView<E>>
 
   void _initAnimation() {
     _animationIn = AnimationController(
-      duration: Duration(milliseconds: _animateDuration + _duration),
+      duration: Duration(milliseconds: _duration),
       vsync: this,
     );
 
