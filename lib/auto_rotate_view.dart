@@ -121,7 +121,7 @@ class _AutoRotateViewState<E> extends State<AutoRotateView<E>>
   @override
   void initState() {
     super.initState();
-    _animateDuration = widget._animateDuration?.inMilliseconds ?? 800;
+    _animateDuration = widget.animateDuration?.inMilliseconds ?? 800;
     _duration = widget.duration?.inMilliseconds ?? 3000;
     _duration += _animateDuration;
     _delayedDuration = widget.delayedDuration ?? Duration.zero;
